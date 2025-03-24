@@ -6,6 +6,6 @@
   "scripts": {
     "prepare": "cd ./apps/nextjs-app && yarn && cd ../nextjs-pages && yarn && cd ../react-vite && yarn"
   },
-  "author": "alan2207",
+  "author": "ethchor",
   "license": "MIT"
 }

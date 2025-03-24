@@ -29,7 +29,7 @@ For a full list of security risks, check [OWASP](https://owasp.org/www-project-t
 #### Handling user data
 
 User info should be considered a global piece of state which should be available from anywhere in the application.
-If you are already using `react-query`, you can use [react-query-auth](https://github.com/alan2207/react-query-auth) library for handling user state which will handle all the things for you after you provide it some configuration. Otherwise, you can use react context + hooks, or some 3rd party state management library.
+If you are already using `react-query`, you can use react-query-auth library for handling user state which will handle all the things for you after you provide it some configuration. Otherwise, you can use react context + hooks, or some 3rd party state management library.
 
 User information should be treated as a central piece of data accessible throughout the application. If you are already using `react-query`, consider using it for storing user data as well. Alternatively, you can leverage React context with hooks or opt for a third-party state management library to efficiently manage user state across your application.
 
